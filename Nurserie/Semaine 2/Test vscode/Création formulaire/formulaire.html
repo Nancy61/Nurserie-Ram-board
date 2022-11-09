@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Création de formulaire</h1>
+    <label for="cars">Choose a car:</label>
+<select id="cars" name="cars" size="6" multiple>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="tesla">Tesla</option>
+    <option value="bmw">BMW</option>
+</select>
+<textarea name="message"  rows="10"  cols="30">
+    The  cat  was  playing  in  the  garden.  
+    </textarea>
+
+    <h2>Exemple de formulaire</h2>
+    <form method="get">
+        <label for="fname">First name :<br>
+        <input type="text" name="fname" value="John">
+        </label><br>
+        <label for="html">
+        <input type="radio" name="fav_language" value="html">HTML
+        </label><br>
+        <label for="css">
+        <input type="radio" name="fav_language" value="css">CSS
+        </label><br>
+        <label for="javascript">
+        <input type="radio" name="fav_language" value="javascript">JavaScript
+        </label><br>
+        <label for="vehicle1">
+        <input type="checkbox" name="vehicle1" value="bike">I have a bike
+        </label><br>
+        <label for="vehicle2">
+        <input type="checkbox" name="vehicle2" value="car">I have a car
+        </label><br>
+        <label for="vehicle3">
+        <input type="checkbox" name="vehicle3" value="boat">I have a boat
+        </label><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+        </form>
+        
+    
+</body>
+</html>
